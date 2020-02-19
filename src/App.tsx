@@ -1,8 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  useLocation
+  BrowserRouter as Router
 } from "react-router-dom";
 
 import styles from './styles/index.module.scss';
