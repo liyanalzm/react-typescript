@@ -14,7 +14,7 @@ class App extends React.PureComponent {
       <Router>
         <div className={styles.container}>
           <h1>Creating a react - typescript from scratch skrtt</h1>
-          <Card />
+          <Card title="Card 1" />
         </div>
       </Router>
 		);
