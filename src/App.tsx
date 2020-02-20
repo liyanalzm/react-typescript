@@ -1,20 +1,19 @@
 import React from 'react';
+import { Provider } from 'react-redux'
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-
-import styles from './styles/index.module.scss';
-import Card from './components/Card';
+import Landing from './components/Landing';
+import store from './redux/store';
 
 class App extends React.PureComponent {
 	render() {
 		return (
-      <Router>
-        <div className={styles.container}>
-          <h1>Creating a react - typescript from scratch skrtt</h1>
-          <Card title="Card 1" />
-        </div>
-      </Router>
+      <Provider store={store}>
+        <Router>
+          <Landing />
+        </Router>
+      </Provider>
 		);
 	}
 }
