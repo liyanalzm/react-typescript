@@ -1,5 +1,5 @@
 # react-typescript
-This source code is a way i'm tracking myself trying out typescript.
+This repo is a way i'm tracking myself trying out typescript.
 
 ## Technology included
 1. React
