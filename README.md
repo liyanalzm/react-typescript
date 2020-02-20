@@ -14,4 +14,4 @@ It will be available at port `8080`
 
 ## Change the language
 Just click on the button to change language <br />
-![Image description]("image.png")
+![Image demo](image.png)
